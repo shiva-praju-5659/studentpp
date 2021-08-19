@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"
+  >
+    <link href=
+        'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
+      rel='stylesheet'>
+        
+      <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" >
+      </script>
+        
+      <script src=
+        "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" >
+      </script>
+  <title>Student App</title>
+</head>
+
+<body>
+  <!--navbar section-->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">Student App</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-togle-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#students" class="nav-link">Our Students</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link bg-primary" data-bs-toggle="modal" data-bs-target="#login">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="bg-dark text-light p-5 p-lg-0 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Join Our <span class="text-warning"> Student Community</span> </h1>
+          <p class="lead my-4">
+            Welcome to our Student Community. An online community for students from all across the country, providing a
+            platform for learning
+          </p>
+          <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start to
+            Enrollment</button>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Student sections -->
+  <section id="students" class="p-5 bg-primary">
+    <div class="container">
+      <h2 class="text-center text-white">Our Students</h2>
+      <p class="lead text-center text-white mb-5">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero iusto optio expedita similique enim aliquid,
+        nihil quod officia ducimus possimus doloribus placeat dolorem neque alias laboriosam in ipsam doloremque
+        quisquam?
+      </p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="" />
+              <h3 class="card-title mb-3">Deepak</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+              </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="" />
+              <h3 class="card-title mb-3">Mishal</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+              </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3" alt="" />
+              <h3 class="card-title mb-3">Steve Smith</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+              </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3" alt="" />
+              <h3 class="card-title mb-3">Sara Smith</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+              </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2021 Student Community App</p>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+
+  
+  <!-- Enrollment -->
+  <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form class="form-horizontal hr" method="post" action=".php">
+            <!-- firstname -->
+            <div class="form-group">
+              <label for="fname" class="control-label col-sm-4">First Name</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="uname" placeholder="Enter Your First Name">
+              </div>
+            </div>
+            <!-- lastname -->
+            <div class="form-group">
+              <label for="lname" class="control-label col-sm-4">Last Name</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="uname" placeholder="Enter Your Last Name">
+              </div>
+            </div>
+            <!-- Date of birth -->
+            <div class="form-group py-2">
+              Date of Birth: <input type="text" id="my_date_picker">
+            </div>
+            <!-- Gender -->
+
+            <div class="form-group">
+              <label for="gen" class="control-label col-sm-4">Gender:</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="male" id="inlineRadio1" value="male">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                  value="option3">
+                <label class="form-check-label" for="inlineRadio3">Others</label>
+              </div>
+            </div>
+
+            <!-- Hobbies -->
+            <div class="form-group py-2">
+              <label for="hobb" class="control-label col-sm-4">Hobbies:</label>
+              <!-- Riding-->
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline1">
+                <label class="custom-control-label" for="defaultInline1">Riding Bike</label>
+              </div>
+
+              <!-- reading-->
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline2">
+                <label class="custom-control-label" for="defaultInline2">Reading</label>
+              </div>
+
+              <!-- Treaking-->
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="defaultInline3">
+                <label class="custom-control-label" for="defaultInline3">Treaking</label>
+              </div>
+            </div>
+            
+            <!-- username -->
+            <div class="form-group">
+              <label for="uname" class="control-label col-sm-4">UserName</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="uname" placeholder="Enter UserName">
+              </div>
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+              <label for="uemail" class="control-label col-sm-4">Email</label>
+              <div class="col-sm-8">
+                <input type="email" class="form-control" id="uname" placeholder="Enter Your Email Id">
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <!-- password -->
+            <div class="form-group">
+              <label for="psw" class="control-label col-sm-4">Password</label>
+              <div class="col-sm-8">
+                <input type="password" class="form-control" id="uname" placeholder="Enter Your Password">
+              </div>
+            </div>
+
+            <!-- Status -->
+            <div class="form-group pt-2">
+              <p>Status:</p>
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Status
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Active</a></li>
+                  <li><a href="#">Inactive</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- About -->
+            <label for="about" class="control-label col-sm-4">About:</label>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="About yourself" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2"></label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loign form -->
+  <div class="modal fade" id="login" tabindex="-1" aria-labelledby="login" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollLabel">Login form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Welcome Back!</p>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="col-form-label">Password</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous">
+  </script>
+  <script>
+    $(document).ready(function() {
+      
+        $(function() {
+            $( "#my_date_picker" ).datepicker();
+        });
+    })
+  </script>
+  
+</body>
+
+</html>
